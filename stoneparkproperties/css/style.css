@@ -26,7 +26,11 @@
   background: linear-gradient(to bottom, #4d4d4f 0%, #363738 59%, #181819 99%);
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4d4d4f', endColorstr='#181819',GradientType=0 );
-  /* IE6-9 */ }
+  /* IE6-9 */
+  background-image: url("./images/footer-pattern.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom center; }
   #main-footer #footer-widgets {
     padding-top: 3%; }
     #main-footer #footer-widgets .footer-widget .widget_nav_menu ul.menu li:before {
@@ -34,6 +38,8 @@
     #main-footer #footer-widgets .footer-widget .widget_nav_menu ul.menu li {
       padding-left: 0px;
       margin-bottom: 0px; }
+  #main-footer #footer-bottom {
+    background-color: rgba(0, 0, 0, 0.32); }
 
 /* *** keep this at the end *** */
 /* **** media **** */
