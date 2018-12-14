@@ -12,8 +12,34 @@
 /* =Theme customization starts here
 ------------------------------------------------------- */
 @import "partials/colors";
+@import "partials/reachCTAs";
 
 
 
+// footer
+#main-footer {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#4d4d4f+0,363738+59,181819+99 */
+  background: rgb(77,77,79); /* Old browsers */
+  background: -moz-linear-gradient(top, rgba(77,77,79,1) 0%, rgba(54,55,56,1) 59%, rgba(24,24,25,1) 99%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(77,77,79,1) 0%,rgba(54,55,56,1) 59%,rgba(24,24,25,1) 99%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(77,77,79,1) 0%,rgba(54,55,56,1) 59%,rgba(24,24,25,1) 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4d4d4f', endColorstr='#181819',GradientType=0 ); /* IE6-9 */
+  #footer-widgets {
+    padding-top: 3%;
+    .footer-widget {
+      .widget_nav_menu {
+        ul.menu {
+          li:before {
+              border: 0px;
+          }
+          li {
+              padding-left: 0px;
+              margin-bottom: 0px;
+          }
+        } // ul
+      }
+    }
+  }
+}
 /* *** keep this at the end *** */
 @import "partials/media";

@@ -11,6 +11,30 @@
 ------------------------------------------------------- */
 /* ----------- Colors ---------------------------------- */
 /* ----------- end Colors ----------- */
+/* styling for reach CTA's */
+#reach-under-content-wrap {
+  padding: 20px 0; }
+
+#main-footer {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#4d4d4f+0,363738+59,181819+99 */
+  background: #4d4d4f;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #4d4d4f 0%, #363738 59%, #181819 99%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #4d4d4f 0%, #363738 59%, #181819 99%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #4d4d4f 0%, #363738 59%, #181819 99%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4d4d4f', endColorstr='#181819',GradientType=0 );
+  /* IE6-9 */ }
+  #main-footer #footer-widgets {
+    padding-top: 3%; }
+    #main-footer #footer-widgets .footer-widget .widget_nav_menu ul.menu li:before {
+      border: 0px; }
+    #main-footer #footer-widgets .footer-widget .widget_nav_menu ul.menu li {
+      padding-left: 0px;
+      margin-bottom: 0px; }
+
 /* *** keep this at the end *** */
 /* **** media **** */
 /*------------------------------------------------*/
