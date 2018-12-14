@@ -13,7 +13,10 @@
 /* ----------- end Colors ----------- */
 /* styling for reach CTA's */
 #reach-under-content-wrap {
-  padding: 20px 0; }
+  padding: 20px 0;
+  -webkit-box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.1); }
 
 #main-footer {
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#4d4d4f+0,363738+59,181819+99 */

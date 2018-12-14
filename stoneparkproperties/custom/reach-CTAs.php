@@ -21,8 +21,8 @@
 	if ( !function_exists('spp_under_content_area') ){
     function spp_under_content_area () {
       if (is_active_sidebar('reach-under-content')) {
-    			echo '<div id="reach-under-content-wrap" class="container clearfix">';
-            echo '<div id="reach-under-content">';
+    			echo '<div id="reach-under-content-wrap" >';
+            echo '<div id="reach-under-content" class="container clearfix">';
     				    dynamic_sidebar( 'reach-under-content');
              echo '</div><!-- under content -->';
     			echo '</div><!-- under content wrap -->';
