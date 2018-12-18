@@ -11,6 +11,17 @@
 ------------------------------------------------------- */
 /* ----------- Colors ---------------------------------- */
 /* ----------- end Colors ----------- */
+/* basic css stuff */
+.spp-zindex img {
+  z-index: -1; }
+
+ul.spp-leaf-list {
+  list-style-image: url("./images/leaf-icon.png"); }
+
+.btn-inline .et_pb_button_module_wrapper {
+  display: inline-block;
+  margin: 0 5px; }
+
 /* styling for reach CTA's */
 #reach-under-content-wrap {
   padding: 20px 0;

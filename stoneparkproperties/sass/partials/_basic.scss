@@ -1,16 +1,16 @@
 /* basic css stuff */
-.reach-responsive-video {
-	position: relative;
-	padding-bottom: 50.25%;
-	padding-top: 30px;
-	height: 0;
-	overflow: hidden;
-	margin-bottom: 1em;
-	iframe {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
+
+.spp-zindex { // on image moddule
+	img {
+		z-index: -1;
 	}
+
+}
+ul.spp-leaf-list {
+		list-style-image: url("./images/leaf-icon.png");
+}
+
+.btn-inline .et_pb_button_module_wrapper {
+    display: inline-block;
+    margin: 0 5px;
 }
