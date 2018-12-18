@@ -40,6 +40,17 @@
               padding-left: 0px;
               margin-bottom: 0px;
           }
+
+          li.ssp-bold-foot-head a {
+            color: white;
+            font-weight: bold;
+          }
+          li a:hover {
+            color: white;
+          }
+          li.ssp-bold-foot-head a:hover {
+            color: $spp-gold;
+          }
         } // ul
       }
     }

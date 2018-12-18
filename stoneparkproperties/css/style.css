@@ -41,6 +41,13 @@
     #main-footer #footer-widgets .footer-widget .widget_nav_menu ul.menu li {
       padding-left: 0px;
       margin-bottom: 0px; }
+    #main-footer #footer-widgets .footer-widget .widget_nav_menu ul.menu li.ssp-bold-foot-head a {
+      color: white;
+      font-weight: bold; }
+    #main-footer #footer-widgets .footer-widget .widget_nav_menu ul.menu li a:hover {
+      color: white; }
+    #main-footer #footer-widgets .footer-widget .widget_nav_menu ul.menu li.ssp-bold-foot-head a:hover {
+      color: #cbb677; }
   #main-footer #footer-bottom {
     background-color: rgba(0, 0, 0, 0.32); }
 
