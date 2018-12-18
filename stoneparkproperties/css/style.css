@@ -56,6 +56,14 @@
 /*------------------------------------------------*/
 /*---------------[RESPONSIVE LAYOUTS]-------------*/
 /*------------------------------------------------*/
+@media only screen and (min-width: 881px) {
+  #footer-widgets {
+    display: flex;
+    justify-content: space-between; }
+    #footer-widgets .footer-widget {
+      flex-grow: 1;
+      margin-right: 0px;
+      width: fit-content; } }
 /*-------------------[960px]------------------*/
 /*-------------------[768px]------------------*/
 @media only screen and (max-width: 980px) {
