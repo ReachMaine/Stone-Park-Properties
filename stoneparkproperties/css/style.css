@@ -16,7 +16,9 @@
   z-index: -1; }
 
 ul.spp-leaf-list {
-  list-style-image: url("./images/leaf-icon.png"); }
+  list-style-image: url("./images/list-icon.png"); }
+  ul.spp-leaf-list li {
+    padding-bottom: 5px; }
 
 .btn-inline .et_pb_button_module_wrapper {
   display: inline-block;
