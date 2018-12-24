@@ -31,6 +31,19 @@ ul.spp-leaf-list {
   -moz-box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.1);
   box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.1); }
 
+#top-menu li ul.sub-menu li.spp-menu-header {
+  padding-left: 0px;
+  font-weight: bold; }
+#top-menu li ul.sub-menu li:not(.current-menu-item) > a {
+  color: #a9a9a9; }
+#top-menu li ul.sub-menu li:hover a {
+  background-color: white; }
+#top-menu li ul.sub-menu li > a:hover {
+  background-color: white;
+  font-weight: bold; }
+#top-menu li ul.sub-menu li:not(.current-menu-item) > a:hover {
+  color: #1d1d1d !important; }
+
 #main-footer {
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#4d4d4f+0,363738+59,181819+99 */
   background: #4d4d4f;

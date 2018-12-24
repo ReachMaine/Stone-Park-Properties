@@ -15,7 +15,34 @@
 @import "partials/basic";
 @import "partials/reachCTAs";
 
-
+// main navigation
+#top-menu {
+  li  {
+    ul.sub-menu {
+    	li.spp-menu-header { // subheader on flyout menu styling (used for Residental/Commerical so they standout)
+    		padding-left: 0px;
+    		font-weight: bold;
+    		//color: #000;
+    	}
+      li:not(.current-menu-item) >a {
+        color: #a9a9a9; // setting color in theme customizer kill active color
+      }
+      li:hover {
+          //background-color: $spp-gold;
+          a {
+            background-color: white; // no background-color(blend with background)
+          }
+      }
+      li>a:hover {
+        background-color: white;
+        font-weight: bold;
+      }
+      li:not(.current-menu-item)>a:hover {
+        color: #1d1d1d!important;
+      }
+    } // sub-menu
+  }
+}
 
 // footer
 #main-footer {
