@@ -18,6 +18,8 @@
 // main navigation
 #top-menu {
   li  {
+    padding-right:30px;
+    
     ul.sub-menu {
     	li.spp-menu-header { // subheader on flyout menu styling (used for Residental/Commerical so they standout)
     		padding-left: 0px;
