@@ -14,12 +14,12 @@
 @import "partials/colors";
 @import "partials/basic";
 @import "partials/reachCTAs";
-
+@import "partials/blog";
 // main navigation
 #top-menu {
   li  {
     padding-right:30px;
-    
+
     ul.sub-menu {
     	li.spp-menu-header { // subheader on flyout menu styling (used for Residental/Commerical so they standout)
     		padding-left: 0px;
@@ -45,8 +45,10 @@
     } // sub-menu
   }
 }
+/***  Content ****/
 
-// footer
+
+/***  footer ****/
 #main-footer {
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#4d4d4f+0,363738+59,181819+99 */
   background: rgb(77,77,79); /* Old browsers */

@@ -16,7 +16,7 @@
   		'after_title' => '</h4>',
 		));
     }
-
+// add the widget to after the content using hook
   add_action('et_after_main_content', 'spp_under_content_area');
 	if ( !function_exists('spp_under_content_area') ){
     function spp_under_content_area () {

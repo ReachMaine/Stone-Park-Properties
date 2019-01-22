@@ -35,6 +35,19 @@ ul.spp-leaf-list {
   -moz-box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.1);
   box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.1); }
 
+/* styling for blog posts & blog archive & blog module */
+/*List Style Divi Blog Feed*/
+/*Style Your Blog Post Title*/
+.bbb_blog_list article.et_pb_post .more-link {
+  display: inline-block;
+  float: right; }
+
+@media only screen and (min-width: 800px) {
+  .et_pb_posts.bbb_blog_list article.et_pb_post a img {
+    float: left;
+    width: 25%;
+    padding-right: 20px;
+    padding-bottom: 20px; } }
 #top-menu li {
   padding-right: 30px; }
   #top-menu li ul.sub-menu li.spp-menu-header {
@@ -50,6 +63,8 @@ ul.spp-leaf-list {
   #top-menu li ul.sub-menu li:not(.current-menu-item) > a:hover {
     color: #1d1d1d !important; }
 
+/***  Content ****/
+/***  footer ****/
 #main-footer {
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#4d4d4f+0,363738+59,181819+99 */
   background: #4d4d4f;
