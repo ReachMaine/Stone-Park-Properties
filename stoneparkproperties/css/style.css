@@ -10,6 +10,9 @@
 /* =Theme customization starts here
 ------------------------------------------------------- */
 /* ----------- Colors ---------------------------------- */
+.spp-hover-gray .et_pb_newsletter_button:hover {
+  background-color: #F0F0F0 !important; }
+
 /* ----------- end Colors ----------- */
 /* basic css stuff */
 .spp-zindex img {
