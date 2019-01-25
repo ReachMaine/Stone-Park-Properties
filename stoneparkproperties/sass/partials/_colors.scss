@@ -8,6 +8,7 @@ $reach-orange: #ffa73d;
 
 $spp-gold: #cbb677;
 $spp-light-grey: #F0F0F0;
+$spp-dk-grey: #666666;
 // special colors
 $cf7-success-color: #000;
 $cf7-success-background: #57f14e;
@@ -17,8 +18,8 @@ $bottom-cta-bkg: rgba(78,114,176,0.22);
 
 .spp-hover-gray {
   .et_pb_newsletter_button:hover {
-    background-color: $spp-light-grey!important;
+    background-color: $spp-dk-grey!important;
   }
-
 }
+
 /* ----------- end Colors ----------- */
