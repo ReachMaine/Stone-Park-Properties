@@ -15,12 +15,20 @@
 @import "partials/basic";
 @import "partials/reachCTAs";
 @import "partials/blog";
+@import "partials/cf7";
 // main navigation
 #top-menu {
   li  {
     padding-right:30px;
 
     ul.sub-menu {
+      li {
+        line-height: 20px;
+        a {
+          padding-top: 10px;
+          padding-bottom: 10px;
+        }
+      }
     	li.spp-menu-header { // subheader on flyout menu styling (used for Residental/Commerical so they standout)
     		padding-left: 0px;
     		font-weight: bold;

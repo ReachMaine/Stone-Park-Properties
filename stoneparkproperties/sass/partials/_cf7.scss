@@ -1,8 +1,10 @@
 // contact form 7 styling
 // special colors
-$cf7-success-color: #F4E19A;
-$cf7-success-background: #598E46;
-$cf7-submit-color: #fff;
+
+$cf7-success-color: #666666;
+$cf7-success-background: white;
+$cf7-submit-color: white;
+$cf7-submit-bkg: #666666;
 
 .wpcf7-form {
    textarea {
@@ -24,6 +26,8 @@ $cf7-submit-color: #fff;
     input[type="tel"],
     input[type="color"] {
        max-width: 100%;
+       height: 2em;
+       margin-bottom: 10px;
     }
     input[type="tel"]{
        width: 200px;
@@ -35,13 +39,16 @@ $cf7-submit-color: #fff;
       width: 80px;
     }
     input.wpcf7-form-control.wpcf7-submit {
-      padding: 18px;
-      border: 0px;
-      border: none;
+      padding: 6px 14px;
+      border: 1px solid white;
       border-radius: 3px;
       text-transform: uppercase;
       font-weight: bold;
       color: $cf7-submit-color;
+      background-color: $spp-dk-grey;
+    }
+    input.wpcf7-form-control.wpcf7-submit:hover {
+      background-color: $spp-gold;
     }
     label {
       //font-weight: bold;
@@ -54,22 +61,49 @@ $cf7-submit-color: #fff;
       content:"*";
       color: red;
     }
-    .one-half, .one-third, .two-third {
+    .one-half, .one-third, .two-third, .one-fifth {
       position: relative;
       //margin-right: 4%;
       padding-right: 2%;
       padding-bottom: 5px;
-      float: left;
+      // float: left;
       // width set in foundation.css
+    }
+
+    .one-half {
+      width: 45%;
+    }
+    .one-third {
+      width: 30%;
+    }
+    .two-third {
+      width: 60%;
+    }
+    .one-fifth {
+      width: 20%;
+      min-width: 80px;
     }
     .one-half.last, .one-third.last, .two-third.last {
       //margin-right: 0px!important;
       padding-right: 0px;
       clear: right;
     }
+    .wpcf7-not-valid-tip {
+      color: $spp-red;
+    }
+
+} // end form
+.wpcf7 .wpcf7-form .wpcf7-response-output {
+    background-color: white;
+    font-weight: bold;
+}
+.wpcf7 .wpcf7-form .wpcf7-response-output:not(.wpcf7-mail-sent-ok) {
+  border-color: $spp-red;
+  color: $spp-red;
 }
 .wpcf7 .wpcf7-form .wpcf7-response-output.wpcf7-mail-sent-ok {
 	color: $cf7-success-color;
 	background-color: $cf7-success-background;
 	font-weight: bold;
+  border-color: $spp-gold;
 }
