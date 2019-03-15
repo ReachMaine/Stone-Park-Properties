@@ -175,7 +175,7 @@ ul.spp-leaf-list {
       font-weight: bold; }
     #main-footer #footer-widgets .footer-widget .widget_nav_menu ul.menu li a:hover {
       color: white; }
-    #main-footer #footer-widgets .footer-widget .widget_nav_menu ul.menu li.ssp-bold-foot-head a:hover {
+    #main-footer #footer-widgets .footer-widget .widget_nav_menu ul.menu li.ssp-bold-foot-head a:not([href="#"]):hover {
       color: #cbb677; }
   #main-footer #footer-bottom {
     background-color: rgba(0, 0, 0, 0.32); }
