@@ -42,14 +42,24 @@
 
 }
 
-/*-------------------[480px]------------------*/
+
 @media only screen and ( max-width: 767px ) {
 
-	/*-------------------[Menu]------------------*/
+  .spp-homepage-slider { // at mobile
+    .et_pb_slide_description {
+        padding-top: 200px!important; //
+
+    }
+  }
 
 }
 
 /*-------------------[320px]------------------*/
 @media only screen and ( max-width: 479px ) {
+  .spp-homepage-slider { // at mobile
+    .et_pb_slide_description {
+        padding-top: 90px!important; //
 
+    }
+  }
 }
